@@ -85,6 +85,7 @@ public class SeckillController {
 //            //return "redirect:/seckill/list";
 //        }
         Seckill seckill = seckillService.getById(seckillId);
+        System.out.println("Hello World");
 //        if(null == seckill){
 //            //return "forward:/seckill/list";
 //        }
